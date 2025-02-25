@@ -1,4 +1,4 @@
-import { Tuser } from '@/components/ProfileDropDown';
+import { TUser } from '@/components/DropDownProfile';
 import { useCurrentToken } from '@/Redux/Features/Auth/AuthSlice';
 import { useAppSelector } from '@/Redux/hooks';
 import { ReactNode } from 'react';
@@ -15,7 +15,7 @@ const DashboardProtected = ({
   const token = useAppSelector(useCurrentToken);
   let user;
   if (token) {
-    user = verifyToken(token) as Tuser;
+    user = verifyToken(token) as TUser;
   }
 
   if (!user?.email) {

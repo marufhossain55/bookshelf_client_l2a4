@@ -1,4 +1,4 @@
-import { TProduct } from '@/pages/AdminDashboard/productManagement/AddProducts';
+import { TProduct } from '@/pages/AdminDashboard/ProductManagement/AddProducts';
 import { createSlice } from '@reduxjs/toolkit';
 import { toast } from 'sonner';
 

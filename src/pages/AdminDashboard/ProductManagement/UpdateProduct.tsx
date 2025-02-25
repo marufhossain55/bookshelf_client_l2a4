@@ -21,8 +21,8 @@ const UpdateProduct = ({ productId }: { productId: string }) => {
   useEffect(() => {
     if (singleData) {
       reset({
-        name: singleData?.data.name || '',
-        brand: singleData?.data?.brand || '',
+        title: singleData?.data.title || '',
+        author: singleData?.data?.author || '',
         price: singleData?.data?.price || 0,
         quantity: singleData?.data?.quantity || 0,
         category: singleData?.data?.category || '',

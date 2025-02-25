@@ -1,18 +1,16 @@
-import { useCurrentToken } from '@/Redux/Features/Auth/AuthSlice';
-import { useAppSelector } from '@/Redux/hooks';
 import { verifyToken } from '@/utils/verifyToken';
 import { useEffect, useState } from 'react';
 import { FaCartPlus } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
-import ProfileDropDown from '../ProfileDropDown';
+import ProfileDropDown from './DropDownProfile';
+import { useAppSelector } from '@/Redux/hooks';
+import { useCurrentToken } from '@/redux/Features/Auth/AuthSlice';
+
 export default function Navbar() {
-  // const[user]=useUserQuery(undefined)
-  // const [logout]=useLogoutMutation()
   const [isToggleOpen, setIsToggleOpen] = useState(false);
 
-  // const [isLoggedIn, setIsLoggedIn] = useState(false);
   const token = useAppSelector(useCurrentToken);
-  // Check login state from localStorage on component mount
+
   useEffect(() => {
     const loggedInStatus = localStorage.getItem('isLoggedIn');
     if (loggedInStatus === 'true') {

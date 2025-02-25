@@ -1,5 +1,5 @@
 import { baseApi } from '../../Api/baseApi';
-import { IBikeResponse, TResponseRedux } from '@/types';
+import { IBookResponse, TResponseRedux } from '@/types';
 
 const productManagementApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
@@ -33,7 +33,7 @@ const productManagementApi = baseApi.injectEndpoints({
           method: 'GET',
         };
       },
-      transformResponse: (response: TResponseRedux<IBikeResponse[]>) => ({
+      transformResponse: (response: TResponseRedux<IBookResponse[]>) => ({
         data: response?.data,
         meta: response?.meta,
       }),

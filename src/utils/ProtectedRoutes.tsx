@@ -1,4 +1,4 @@
-import { useCurrentToken } from '@/Redux/Features/Auth/AuthSlice';
+import { useCurrentToken } from '@/redux/Features/Auth/AuthSlice';
 import { useAppSelector } from '@/Redux/hooks';
 import { ReactNode } from 'react';
 import { Navigate, useLocation } from 'react-router-dom';

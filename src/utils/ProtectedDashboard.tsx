@@ -1,9 +1,9 @@
 import { TUser } from '@/components/DropDownProfile';
-import { useCurrentToken } from '@/Redux/Features/Auth/AuthSlice';
 import { useAppSelector } from '@/Redux/hooks';
 import { ReactNode } from 'react';
 import { Navigate } from 'react-router-dom';
 import { verifyToken } from './verifyToken';
+import { useCurrentToken } from '@/redux/Features/Auth/AuthSlice';
 
 const ProtectedDashboard = ({
   children,

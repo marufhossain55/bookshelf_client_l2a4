@@ -9,8 +9,8 @@ import {
   fetchBaseQuery,
 } from '@reduxjs/toolkit/query/react';
 import { toast } from 'sonner';
-import { logout, setUser } from '../Features/Auth/AuthSlice';
 import { RootState } from '../store';
+import { logout, setUser } from '../Features/Auth/AuthSlice';
 
 const baseQuery = fetchBaseQuery({
   baseUrl: `${import.meta.env.VITE_REACT_APP_SERVER_URI}/api`,

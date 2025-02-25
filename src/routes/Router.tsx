@@ -1,4 +1,5 @@
 import App from '@/App';
+import Error from '@/pages/Error';
 
 import ProtectedDashboard from '@/utils/ProtectedDashboard';
 import ProtectedRoutes from '@/utils/ProtectedRoutes';

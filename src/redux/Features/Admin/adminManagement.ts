@@ -1,4 +1,4 @@
-import { baseApi } from '@/Redux/Api/baseApi';
+import { baseApi } from '../../Api/baseApi';
 import { IBikeResponse, TResponseRedux } from '@/types';
 
 const productManagementApi = baseApi.injectEndpoints({

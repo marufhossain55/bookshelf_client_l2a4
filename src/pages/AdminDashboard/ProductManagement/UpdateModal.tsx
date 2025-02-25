@@ -82,7 +82,12 @@ export default function UpdateModal({ productId }: UpdateModalProps) {
 
   return (
     <>
-      <button onClick={() => setIsShowing(true)}>
+      {/* <button onClick={() => setIsShowing(true)}>
+        <span>
+          <FaRegEdit className="text-emerald-500" />
+        </span>
+      </button> */}
+      <button onClick={() => setIsShowing(true)} title="Edit">
         <span>
           <FaRegEdit className="text-emerald-500" />
         </span>

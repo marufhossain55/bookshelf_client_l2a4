@@ -7,10 +7,10 @@ import { useForm, FieldValues } from 'react-hook-form';
 import { toast } from 'sonner';
 
 export type TProduct = {
-  brand: string;
+  author: string;
   description: string;
   inStock: boolean;
-  name: string;
+  title: string;
   image: string;
   price: number;
   quantity: number;
@@ -89,11 +89,11 @@ const AddProducts = () => {
                     id="name"
                     type="text"
                     placeholder="Enter product name"
-                    {...register('name', { required: 'Name is required' })}
+                    {...register('title', { required: 'Name is required' })}
                   />
-                  {errors.name && (
+                  {errors.title && (
                     <p className="text-red-500 text-sm mt-1">
-                      {errors.name.message}
+                      {errors.title.message}
                     </p>
                   )}
                 </div>
@@ -106,11 +106,11 @@ const AddProducts = () => {
                     id="brand"
                     type="text"
                     placeholder="Enter brand"
-                    {...register('brand', { required: 'Brand is required' })}
+                    {...register('author', { required: 'Brand is required' })}
                   />
-                  {errors.brand && (
+                  {errors.author && (
                     <p className="text-red-500 text-sm mt-1">
-                      {errors.brand.message}
+                      {errors.author.message}
                     </p>
                   )}
                 </div>

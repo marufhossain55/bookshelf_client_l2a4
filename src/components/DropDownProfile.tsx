@@ -4,7 +4,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { useUserQuery } from '@/Redux/Features/Auth/AuthApi';
+import { useUserQuery } from '../Redux/Features/auth/AuthApi';
 import { logout, useCurrentToken } from '@/Redux/Features/Auth/AuthSlice';
 import { useAppDispatch, useAppSelector } from '@/Redux/hooks';
 import { verifyToken } from '@/utils/verifyToken';

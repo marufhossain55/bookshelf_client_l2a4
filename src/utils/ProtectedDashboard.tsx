@@ -5,7 +5,7 @@ import { ReactNode } from 'react';
 import { Navigate } from 'react-router-dom';
 import { verifyToken } from './verifyToken';
 
-const DashboardProtected = ({
+const ProtectedDashboard = ({
   children,
   role,
 }: {
@@ -32,4 +32,4 @@ const DashboardProtected = ({
   return children;
 };
 
-export default DashboardProtected;
+export default ProtectedDashboard;

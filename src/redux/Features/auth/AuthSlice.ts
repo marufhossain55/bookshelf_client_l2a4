@@ -1,17 +1,17 @@
-import { RootState } from '@/Redux/store';
+import { RootState } from '@/redux/store';
 import { createSlice } from '@reduxjs/toolkit';
 
-type Tuser = {
+type TUser = {
   userId: string;
   email: string;
 };
 
-type TInitalState = {
+type TInitialState = {
   token: string | null;
-  user: Tuser | null;
+  user: TUser | null;
 };
 
-const initialState: TInitalState = {
+const initialState: TInitialState = {
   token: null,
   user: null,
 };

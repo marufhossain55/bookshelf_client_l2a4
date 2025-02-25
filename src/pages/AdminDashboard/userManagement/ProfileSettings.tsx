@@ -1,8 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Helmet } from 'react-helmet';
-
-import UpdateUser from './UpdateUser';
 import UpdatePassword from './UpdatePassword';
+import UpdateUser from './UpdateUser';
 
 const ProfileSettings = () => {
   return (

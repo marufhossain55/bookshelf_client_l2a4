@@ -4,9 +4,9 @@ import { Button } from '@/components/ui/button';
 import {
   useAdminAllOrdersQuery,
   useGetOrderMutation,
-} from '@/Redux/Features/Admin/OrderApi';
-import { Helmet } from 'react-helmet';
+} from '../../../redux/Features/Admin/orderApi';
 import { toast } from 'sonner';
+import Helmet from 'react-helmet';
 
 function AllOrders() {
   const { data: sAllData, isLoading } = useAdminAllOrdersQuery(undefined);

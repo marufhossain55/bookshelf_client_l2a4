@@ -5,9 +5,8 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { useUserQuery } from '@/redux/Features/auth/AuthApi';
-
-import { logout, useCurrentToken } from '@/Redux/Features/Auth/AuthSlice';
-import { useAppDispatch, useAppSelector } from '@/Redux/hooks';
+import { logout, useCurrentToken } from '../redux/Features/Auth/AuthSlice';
+import { useAppDispatch, useAppSelector } from '../redux/hooks';
 import { verifyToken } from '@/utils/verifyToken';
 import { Link } from 'react-router-dom';
 
@@ -27,7 +26,7 @@ const ProfileDropDown = () => {
   const token = useAppSelector(useCurrentToken);
 
   const handleLogout = () => {
-    localStorage.removeItem('isLoggedIn'); // Remove login state
+    localStorage.removeItem('isLoggedIn');
     dispatch(logout());
   };
 

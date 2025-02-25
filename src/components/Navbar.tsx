@@ -23,8 +23,7 @@ export default function Navbar() {
   }
 
   const handleLogin = () => {
-    // setIsLoggedIn(true);
-    localStorage.setItem('isLoggedIn', 'true'); // Persist login state
+    localStorage.setItem('isLoggedIn', 'true');
   };
 
   const item = useAppSelector((state) => state.product?.selectedItems);

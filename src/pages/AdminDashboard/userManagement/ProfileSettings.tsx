@@ -7,7 +7,7 @@ const ProfileSettings = () => {
   return (
     <div className="w-full p-6">
       <Helmet>
-        <title>RideOn Wheels | Admin Profile</title>
+        <title>BookShelf | Admin Profile</title>
       </Helmet>
       <Card>
         <CardContent className="p-6 space-y-4">

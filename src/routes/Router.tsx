@@ -1,9 +1,16 @@
 import App from '@/App';
+import AdminDashboardLayout from '@/components/layout/AdminDashboardLayout';
+import UserDashboard from '@/components/layout/UserDashboard';
+import AllOrders from '@/pages/AdminDashboard/orderManagement/AllOrders';
+import AllProducts from '@/pages/AdminDashboard/ProductManagement/AllProducts';
+import AllUser from '@/pages/AdminDashboard/userManagement/AllUser';
+import MyOder from '@/pages/AdminDashboard/userManagement/MyOrder';
+import ProfileSettings from '@/pages/AdminDashboard/userManagement/ProfileSettings';
+import CardDetails from '@/pages/Card/CardDetails';
 import Error from '@/pages/Error';
 import Home from '@/pages/Home';
 import Login from '@/pages/Login';
 import Register from '@/pages/Register';
-
 import ProtectedDashboard from '@/utils/ProtectedDashboard';
 import ProtectedRoutes from '@/utils/ProtectedRoutes';
 import { createBrowserRouter } from 'react-router-dom';
@@ -92,7 +99,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'adminOrder',
-        element: <AllOrder />,
+        element: <AllOrders />,
       },
     ],
   },

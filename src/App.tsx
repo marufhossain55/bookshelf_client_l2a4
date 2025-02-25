@@ -1,10 +1,14 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
-import { Button } from './components/ui/button';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-      <Button>Hi</Button>
+      <Navbar />
+      <div>
+        <Outlet />
+      </div>
     </>
   );
 }

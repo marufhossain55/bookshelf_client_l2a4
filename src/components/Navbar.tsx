@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import { FaCartPlus } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import ProfileDropDown from './DropDownProfile';
-import { useAppSelector } from '@/Redux/hooks';
-import { useCurrentToken } from '@/redux/Features/Auth/AuthSlice';
+import { useCurrentToken } from '@/redux/Features/auth/AuthSlice';
+import { useAppSelector } from '@/redux/hooks';
 
 export default function Navbar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false);

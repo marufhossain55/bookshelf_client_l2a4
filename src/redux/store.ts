@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { baseApi } from './Api/baseApi';
-import authSlice from './Features/Auth/AuthSlice';
+import authSlice from './Features/auth/AuthSlice';
 import productSlice from './Features/Admin/ProductSlice';
 import storage from 'redux-persist/lib/storage';
 import {

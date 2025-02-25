@@ -5,7 +5,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { useUserQuery } from '@/redux/Features/auth/AuthApi';
-import { logout, useCurrentToken } from '../redux/Features/Auth/AuthSlice';
+import { logout, useCurrentToken } from '../redux/Features/auth/AuthSlice';
 import { useAppDispatch, useAppSelector } from '../redux/hooks';
 import { verifyToken } from '@/utils/verifyToken';
 import { Link } from 'react-router-dom';

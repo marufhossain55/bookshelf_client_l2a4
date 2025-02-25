@@ -1,5 +1,27 @@
 import App from '@/App';
+import AdminDashboardLayout from '@/components/layout/AdminDashboardLayout';
+import UserDashboard from '@/components/layout/UserDashboard';
 
+import About from '@/pages/About';
+import AllOrder from '@/pages/AdminDashboard/orderManagement/AllOrder';
+import Overview from '@/pages/AdminDashboard/Overview';
+import AllProducts from '@/pages/AdminDashboard/productManagement/AllProducts';
+import AllUser from '@/pages/AdminDashboard/UserManagement/AllUser';
+import MyOder from '@/pages/AdminDashboard/UserManagement/MyOder';
+import ProfileSettings from '@/pages/AdminDashboard/UserManagement/ProfileSettings';
+import AllProductsPage from '@/pages/AllProductsPage';
+import CardDetails from '@/pages/card/CardDetails';
+import Cart from '@/pages/Cart';
+import Checkout from '@/pages/Checkout';
+import Error from '@/pages/Error';
+import Home from '@/pages/Home';
+import ImageUpload from '@/pages/ImageUpload';
+import Login from '@/pages/Login';
+import PaymentReturn from '@/pages/PaymentReturn';
+import Register from '@/pages/Register';
+import Service from '@/pages/Service';
+import DashboardProtected from '@/utils/DashboardProtected';
+import ProtectedRoutes from '@/utils/ProtectedRoutes';
 import { createBrowserRouter } from 'react-router-dom';
 
 const router = createBrowserRouter([

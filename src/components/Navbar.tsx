@@ -31,8 +31,6 @@ export default function Navbar() {
 
   return (
     <>
-      {/*<!-- Component: Navbar with Avatar --> */}
-      {/*<!-- Header --> */}
       <header className="  sticky top-0 z-10 w-full border-b border-slate-200 bg-white/90 shadow-lg shadow-slate-700/5 after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
@@ -60,7 +58,7 @@ export default function Navbar() {
                 </div>
               </Link>
             </a>
-            {/*      <!-- Mobile trigger --> */}
+
             <button
               className={`relative order-10 block h-10 w-10 self-center lg:hidden
               ${
@@ -89,7 +87,6 @@ export default function Navbar() {
               </div>
             </button>
 
-            {/*      <!-- Navigation links --> */}
             <ul
               role="menubar"
               aria-label="Select page"
@@ -215,10 +212,8 @@ export default function Navbar() {
             <div className="ml-auto flex items-center px-6 lg:ml-0 lg:p-0">
               <div className="flex items-center justify-center min-h-screen">
                 {isUserLogin ? (
-                  // Avatar with dropdown menu
                   <ProfileDropDown></ProfileDropDown>
                 ) : (
-                  // Login Button
                   <Link to="/login">
                     {' '}
                     <button
@@ -234,7 +229,6 @@ export default function Navbar() {
           </nav>
         </div>
       </header>
-      {/*<!-- End Navbar with Avatar--> */}
     </>
   );
 }

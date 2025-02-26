@@ -18,11 +18,11 @@ const ImageUpload: React.FC = () => {
 
     const formData = new FormData();
     formData.append('file', image);
-    formData.append('upload_preset', 'marufhossain55'); // Replace with your Cloudinary preset
+    formData.append('upload_preset', 'marufhossain55');
 
     try {
       const response = await axios.post(
-        'https://api.cloudinary.com/v1_1/drcynlax7/image/upload', // Replace with your Cloudinary cloud name
+        'https://api.cloudinary.com/v1_1/drcynlax7/image/upload',
         formData
       );
       setImageUrl(response.data.secure_url);

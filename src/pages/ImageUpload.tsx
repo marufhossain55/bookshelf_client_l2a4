@@ -22,7 +22,7 @@ const ImageUpload: React.FC = () => {
 
     try {
       const response = await axios.post(
-        'https://api.cloudinary.com/v1_1/drcynlax7/image/upload',
+        'https://api.cloudinary.com/v1_1/dcwdmvgmz/image/upload',
         formData
       );
       setImageUrl(response.data.secure_url);

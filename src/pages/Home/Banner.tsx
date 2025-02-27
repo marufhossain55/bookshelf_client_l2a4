@@ -5,7 +5,7 @@ import 'swiper/swiper-bundle.css';
 
 import { Autoplay, History, Navigation, Pagination } from 'swiper/modules';
 
-const Slider = () => {
+const Banner = () => {
   return (
     <div className="relative">
       <Swiper
@@ -127,4 +127,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Banner;

@@ -44,7 +44,7 @@ function AllOrders() {
   return (
     <div className="w-full mt-5">
       <Helmet>
-        <title>RideOn Wheels | Admin All Orders</title>
+        <title>Bookshelf | Admin All Orders</title>
       </Helmet>
       <div className="flex justify-end"></div>
       <table className="w-full text-left mt-5 border border-separate rounded border-slate-200">

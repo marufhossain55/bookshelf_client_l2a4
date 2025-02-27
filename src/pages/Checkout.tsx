@@ -109,7 +109,7 @@ const Checkout = () => {
   return (
     <div className="bg-gray-50 py-12">
       <Helmet>
-        <title>RideOn Wheels | Checkout</title>
+        <title>Bookshelf | Checkout</title>
       </Helmet>
       <div className="max-w-screen-xl mx-auto px-6">
         <h1 className="text-4xl font-bold text-emerald-600 text-center mb-12">

@@ -26,7 +26,7 @@ const CardDetails = () => {
   return (
     <div className="bg-gray-50 py-12">
       <Helmet>
-        <title>RideOn Wheels | Product Details</title>
+        <title>Bookshelf | Product Details</title>
       </Helmet>
       {/* Main Content */}
       <div className="max-w-screen-xl mx-auto px-6">

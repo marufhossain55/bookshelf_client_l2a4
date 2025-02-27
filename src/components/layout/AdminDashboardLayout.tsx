@@ -60,7 +60,7 @@ const AdminDashboardLayout = () => {
     <div>
       <div className="min-h-screen flex flex-col">
         <Helmet>
-          <title>RideOn Wheels | Admin Dashboard</title>
+          <title>Bookshelf | Admin Dashboard</title>
         </Helmet>
         {/* Header */}
         <header className="bg-emerald-500 h-16 w-full flex items-center justify-between px-6 text-white shadow-md">

@@ -27,7 +27,6 @@ const Register = () => {
         // form.reset();
         navigate('/login');
       }
-      console.log(result, 'resigter');
       console.log(data);
     } catch (err) {
       console.log(err);
@@ -42,7 +41,7 @@ const Register = () => {
   return (
     <section className="py-32 max-h-full">
       <Helmet>
-        <title>RideOn Wheels | Register</title>
+        <title>Bookshelf | Register</title>
       </Helmet>
       <div className="container mx-auto ">
         <div className="flex flex-col gap-4">

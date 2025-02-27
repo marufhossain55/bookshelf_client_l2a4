@@ -54,7 +54,7 @@ const AllProducts = () => {
   return (
     <div className="w-full mt-5">
       <Helmet>
-        <title>RideOn Wheels | Admin All Products</title>
+        <title>Bookshelf | Admin All Products</title>
       </Helmet>
       <div className="flex justify-end">
         <AddModal />

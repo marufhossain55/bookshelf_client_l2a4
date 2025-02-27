@@ -48,12 +48,15 @@ export default function Navbar() {
               <Link to={'/'} className="flex flex-row items-center gap-2">
                 <div>
                   <a className="relative inline-flex items-center justify-center w-20 h-20  text-lg text-white  lg:-ml-6 rounded-full ">
-                    <img src="https://svgsilh.com/svg_v2/158940.svg" alt="" />
+                    <img
+                      src="https://i.etsystatic.com/23559605/r/il/5ce8a1/2846155855/il_fullxfull.2846155855_ijzs.jpg"
+                      alt=""
+                    />
                   </a>
                 </div>
                 <div>
-                  <span className="lg:text-3xl font-semibold">RideOn</span>{' '}
-                  <span className="lg:text-3xl font-semibold">Wheels</span>
+                  <span className="lg:text-3xl font-semibold">Book</span>{' '}
+                  <span className="lg:text-3xl font-semibold">Shelf</span>
                 </div>
               </Link>
             </a>
@@ -133,7 +136,7 @@ export default function Navbar() {
                       }
                       to={'/allProduct'}
                     >
-                      All Products Page
+                      All Products
                     </NavLink>
                   </span>
                 </a>

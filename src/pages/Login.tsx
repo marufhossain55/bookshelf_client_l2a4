@@ -39,7 +39,7 @@ const Login = () => {
   return (
     <section className="py-32 max-h-full">
       <Helmet>
-        <title>RideOn Wheels | Login</title>
+        <title>BookShelf | Login</title>
       </Helmet>
       <div className="container mx-auto ">
         <div className="flex flex-col gap-4">

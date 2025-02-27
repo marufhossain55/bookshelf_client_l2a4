@@ -10,35 +10,35 @@ const BookClub = () => {
       </div>
       <div>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Random_House_2012_logo.svg/1280px-Random_House_2012_logo.svg.png"
+          src="https://th.bing.com/th/id/OIP.gMWEBkLQqAvSVCs09gHMswHaKy?rs=1&pid=ImgDetMain"
           alt="Random House"
           className="w-24 h-24 object-contain"
         />
       </div>
       <div>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/HarperCollins_logo.svg/1280px-HarperCollins_logo.svg.png"
+          src="https://pbs.twimg.com/media/FyfnX3WWwAAE4Zu?format=jpg&name=large"
           alt="HarperCollins"
           className="w-24 h-24 object-contain"
         />
       </div>
       <div>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Simon_%26_Schuster_logo.svg/1280px-Simon_%26_Schuster_logo.svg.png"
+          src="https://th.bing.com/th/id/OIP.ouaLaH0RvgKPlIzyHbrGSgAAAA?rs=1&pid=ImgDetMain"
           alt="Simon & Schuster"
           className="w-24 h-24 object-contain"
         />
       </div>
       <div>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hachette_Books_logo.svg/1280px-Hachette_Books_logo.svg.png"
+          src="https://th.bing.com/th/id/R.926a1ba37155472b3eaa50abb78269a0?rik=3jTxwlvf0RDXAA&pid=ImgRaw&r=0"
           alt="Hachette Books"
           className="w-24 h-24 object-contain"
         />
       </div>
       <div>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Macmillan_logo.svg/1280px-Macmillan_logo.svg.png"
+          src="https://th.bing.com/th/id/OIP.-hreowOwLMJsS2qzitbH_wHaBH?rs=1&pid=ImgDetMain"
           alt="Macmillan Publishers"
           className="w-24 h-24 object-contain"
         />

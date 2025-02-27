@@ -46,17 +46,19 @@ const BookShelfMission = () => {
                 </div>
               </div>
               <button
-                type="button" // Add type attribute
+                type="button"
                 className="bg-emerald-400 text-white rounded-2xl p-1 px-4 hover:bg-emerald-500 transition focus:outline-none"
               >
                 Learn More
               </button>
             </div>
-            <div>
+            <div className="relative">
+              {/* Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent"></div>
               <img
                 src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
                 alt="BookShelf services"
-                className="rounded-lg"
+                className="rounded-lg w-full h-full object-cover"
               />
             </div>
           </div>

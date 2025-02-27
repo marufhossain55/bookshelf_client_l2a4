@@ -66,7 +66,7 @@ const AllProductsPage = () => {
           <input
             type="text"
             name="searchTerm"
-            placeholder="Search by brand, name, or category"
+            placeholder="Search by title, author, or category"
             className="p-2 border w-full border-gray-300 rounded-md flex-1"
             value={filters.searchTerm}
             onChange={handleFilterChange}
